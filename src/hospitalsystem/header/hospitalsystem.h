@@ -1,8 +1,3 @@
-/**
- * @file hospitalsystem.h
- *
- * @brief Provides functions for math. utilities
- */
 
 #ifndef HOSPITALSYSTEM_H
 #define HOSPITALSYSTEM_H
