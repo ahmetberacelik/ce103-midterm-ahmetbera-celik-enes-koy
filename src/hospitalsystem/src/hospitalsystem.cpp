@@ -132,3 +132,293 @@ void patient_management()
 		break;
 	}
 }
+
+void apointment_scheduling()
+{
+	string any_key;
+	int surgery_no;
+	int delete_session;
+	while (true) {
+		write_apostrophe();
+		cout << "APOINTMENT SCHEDULING\n";
+		cout << "1 --> Doctor Availability\n";
+		cout << "2 --> Treatment Sessions\n";
+		cout << "3 --> Surgery Bookings\n";
+		cout << "4 --> Delete Sessions\n";
+		cout << "5 --> Exit Appointment Scheduling\n";
+		write_apostrophe();
+		cout << "Which action do you want to take?\n";
+		int apointment_scheduling_menu;
+		cin >> apointment_scheduling_menu;
+		switch (apointment_scheduling_menu)
+		{
+		case 1:
+			write_apostrophe();
+			cout << doc[0] << " --> Monday (10:30-12:00)(Avaiable)		Thursday (13:00-16:30)(Avaiable)\n";
+			cout << doc[1] << " --> Wednesday (09:30-11:00)(Avaiable)	                Friday (09:00-13:30)(Avaiable)\n";
+			cout << doc[2] << " --> Tuesday (10:30-12:00)(Avaiable)		Wednesday (13:00-15:00)(Avaiable)\n";
+			cout << doc[3] << " --> Monday (08:30-12:00)(Avaiable)		        Thursday (08:00-11:00)(Avaiable)\n";
+			write_apostrophe();
+			cout << "Press any key to continue...\n";
+			cin.ignore();
+			getline(cin, any_key);
+			continue;
+		case 2:
+			if (patient_treatment_session[0].empty() && patient_treatment_session[1].empty()
+				&& patient_treatment_session[2].empty() && patient_treatment_session[3].empty()
+				&& patient_treatment_session[4].empty() && patient_treatment_session[5].empty()
+				&& patient_treatment_session[6].empty() && patient_treatment_session[7].empty())
+			{
+				write_apostrophe();
+				cout << "You do not currently have an appointment registered.\n";
+				write_apostrophe();
+				continue;
+			}
+			else
+			{
+				write_apostrophe();
+				for (int i = 0; i < 8; i++)
+				{
+					if (patient_treatment_session[i].empty())
+					{
+						continue;
+					}
+					else {
+						cout << patient_treatment_session[i] << "\n";
+					}
+				}
+				continue;
+			}
+			break;
+		case 3:
+			write_apostrophe();
+			cout << doc[0] << " (1) --> Monday (10:30-12:00)(Avaiable)		(2) --> Thursday (13:00-16:30)(Avaiable)\n";
+			cout << doc[1] << " (3) --> Wednesday (09:30-11:00)(Avaiable)	(4) --> Friday (09:00-13:30)(Avaiable)\n";
+			cout << doc[2] << " (5) --> Tuesday (10:30-12:00)(Avaiable)		(6) --> Wednesday (13:00-15:00)(Avaiable)\n";
+			cout << doc[3] << " (7) --> Monday (08:30-12:00)(Avaiable)		(8) --> Thursday (08:00-11:00)(Avaiable)\n";
+			write_apostrophe();
+			cin.ignore();
+			cout << "Please select a session.\n";
+			cin >> surgery_no;
+			switch (surgery_no)
+			{
+			case 1:
+				write_apostrophe();
+				cout << "Yout took session number 1...\n";
+				patient_treatment_session[0] = "(Session 1) --> " + doc[0] + " --> Monday (10:30-12:00)\n";
+				cout << patient_treatment_session[0];
+				write_apostrophe();
+				break;
+			case 2:
+				write_apostrophe();
+				cout << "Yout took session number 2...\n";
+				patient_treatment_session[1] = "(Session 2) --> " + doc[0] + " --> Thursday (13:00-16:30)(Avaiable)\n";
+				cout << patient_treatment_session[1];
+				write_apostrophe();
+				break;
+			case 3:
+				write_apostrophe();
+				cout << "Yout took session number 3...\n";
+				patient_treatment_session[2] = "(Session 3) --> " + doc[1] + " --> Wednesday (09:30-11:00)\n";
+				cout << patient_treatment_session[2];
+				write_apostrophe();
+				break;
+			case 4:
+				write_apostrophe();
+				cout << "Yout took session number 4...\n";
+				patient_treatment_session[3] = "(Session 4) --> " + doc[1] + " --> Friday (09:00-13:30)\n";
+				cout << patient_treatment_session[3];
+				write_apostrophe();
+				break;
+			case 5:
+				write_apostrophe();
+				cout << "Yout took session number 5...\n";
+				patient_treatment_session[4] = "(Session 5) --> " + doc[2] + " --> Tuesday (10:30-12:00)\n";
+				cout << patient_treatment_session[4];
+				write_apostrophe();
+				break;
+			case 6:
+				write_apostrophe();
+				cout << "Yout took session number 6...\n";
+				patient_treatment_session[5] = "(Session 6) --> " + doc[2] + " --> Wednesday (13:00-15:00)\n";
+				cout << patient_treatment_session[5];
+				write_apostrophe();
+				break;
+			case 7:
+				write_apostrophe();
+				cout << "Yout took session number 7...\n";
+				patient_treatment_session[6] = "(Session 7) --> " + doc[3] + " --> Monday (08:30-12:00)\n";
+				cout << patient_treatment_session[6];
+				write_apostrophe();
+				break;
+			case 8:
+				write_apostrophe();
+				cout << "Yout took session number 8...\n";
+				patient_treatment_session[7] = "(Session 8) --> " + doc[3] + " --> Thursday (08:00-11:00)\n";
+				cout << patient_treatment_session[7];
+				write_apostrophe();
+				break;
+			default:
+				write_apostrophe();
+				cout << "You've entered wrong session number. Please try again...\n";
+				continue; //In this part,if I enter a letter I take an eror. Loop continues forever and don't stop!
+			}
+			continue;
+		case 4:
+			if (patient_treatment_session[0].empty() && patient_treatment_session[1].empty()
+				&& patient_treatment_session[2].empty() && patient_treatment_session[3].empty()
+				&& patient_treatment_session[4].empty() && patient_treatment_session[5].empty()
+				&& patient_treatment_session[6].empty() && patient_treatment_session[7].empty())
+			{
+				write_apostrophe();
+				cout << "You do not currently have an appointment registered.\n";
+				write_apostrophe();
+				continue;
+			}
+			else
+			{
+				write_apostrophe();
+				for (int i = 0; i < 8; i++)
+				{
+					if (patient_treatment_session[i].empty())
+					{
+						continue;
+					}
+					else {
+						cout << patient_treatment_session[i] << "\n";
+					}
+				}
+				cout << "Please select the session you want to delete\n";
+				cin >> delete_session;
+				switch (delete_session)
+				{
+				case 1:
+					if (patient_treatment_session[0].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[0] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				case 2:
+					if (patient_treatment_session[1].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[1] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				case 3:
+					if (patient_treatment_session[2].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[2] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				case 4:
+					if (patient_treatment_session[3].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[3] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				case 5:
+					if (patient_treatment_session[4].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[4] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				case 6:
+					if (patient_treatment_session[5].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[5] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				case 7:
+					if (patient_treatment_session[6].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[6] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				case 8:
+					if (patient_treatment_session[7].empty())
+					{
+						write_apostrophe();
+						cout << "You made a mistake. The session that you selected is not exist.\n";
+						continue;
+					}
+					else
+					{
+						patient_treatment_session[7] = "";
+						write_apostrophe();
+						cout << "Your session has been deleted...\n";
+						continue;
+					}
+				default:
+					write_apostrophe();
+					cout << "You made a mistake. The session that you selected is not exist.\n";
+					continue;
+				}
+				continue;
+			}
+			continue;
+		case 5:
+			break;
+		default:
+			write_apostrophe();
+			cout << "You've entered wrong option number. Please try again...\n";
+			continue; //In this part,if I enter a letter I take an eror. Loop continues forever and don't stop!
+		}
+		break;
+	}
+}
