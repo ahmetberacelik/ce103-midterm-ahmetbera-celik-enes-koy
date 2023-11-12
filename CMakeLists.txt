@@ -1,6 +1,6 @@
 # Set the minimum required CMake version
 cmake_minimum_required(VERSION 3.12)
-project(calculatorapp)
+project(hospitalsystemapp)
 
 set(ROOT src)
 
@@ -40,8 +40,8 @@ set(CRYPTOPP_BUILD_SHARED OFF)
 set(CRYPTOPP_USE_MASTER_BRANCH FALSE)
 
 option(ENABLE_UTILITY "Enable Utility Module" ON)
-option(ENABLE_CALCULATOR "Enable Calculator Module" ON)
-option(ENABLE_CALCULATOR_APP "Enable Calculator Application" ON)
+option(ENABLE_CALCULATOR "Enable Hospitalsystem Module" ON)
+option(ENABLE_CALCULATOR_APP "Enable Hospitalsystem Application" ON)
 option(ENABLE_TESTS "Enable All Tests" ON)
 
 # Configure tests
@@ -102,12 +102,12 @@ endif()
 
 # Logger submodule
 if(ENABLE_CALCULATOR)
-	add_subdirectory(${ROOT}/calculator)
+	add_subdirectory(${ROOT}/hospitalsystem)
 endif()
 
 # BigInteger for Crypto submodule
 if(ENABLE_CALCULATOR_APP)
-	add_subdirectory(${ROOT}/calculatorapp)
+	add_subdirectory(${ROOT}/hospitalsystemapp)
 endif()
 
 # Tests
