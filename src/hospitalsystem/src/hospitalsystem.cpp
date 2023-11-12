@@ -1,5 +1,6 @@
 #include "../header/hospitalsystem.h"
 #include <stdexcept>
-
-using namespace Coruh::Hospitalsystem;
+#include <iostream>
+#include <string>
+using namespace std;
 

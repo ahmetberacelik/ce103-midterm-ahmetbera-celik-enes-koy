@@ -3,8 +3,6 @@
 #include "gtest/gtest.h"
 #include "../../hospitalsystem/header/hospitalsystem.h"  // Adjust this include path based on your project structure
 
-using namespace Coruh::Hospitalsystem;
-
 class CalculatorTest : public ::testing::Test {
 protected:
 	void SetUp() override {
@@ -16,29 +14,6 @@ protected:
 	}
 };
 
-TEST_F(CalculatorTest, TestAdd) {
-	double result = Hospitalsystem::add(5.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 8.0);
-}
-
-TEST_F(CalculatorTest, TestSubtract) {
-	double result = Hospitalsystem::subtract(5.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 2.0);
-}
-
-TEST_F(CalculatorTest, TestMultiply) {
-	double result = Hospitalsystem::multiply(5.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 15.0);
-}
-
-TEST_F(CalculatorTest, TestDivide) {
-	double result = Hospitalsystem::divide(6.0, 3.0);
-	EXPECT_DOUBLE_EQ(result, 2.0);
-}
-
-TEST_F(CalculatorTest, TestDivideByZero) {
-	EXPECT_THROW(Hospitalsystem::divide(5.0, 0.0), std::invalid_argument);
-}
 
 /**
  * @brief The main function of the test program.
