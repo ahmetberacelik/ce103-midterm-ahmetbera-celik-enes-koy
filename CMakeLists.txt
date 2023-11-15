@@ -40,18 +40,18 @@ set(CRYPTOPP_BUILD_SHARED OFF)
 set(CRYPTOPP_USE_MASTER_BRANCH FALSE)
 
 option(ENABLE_UTILITY "Enable Utility Module" ON)
-option(ENABLE_CALCULATOR "Enable Hospitalsystem Module" ON)
+option(ENABLE_HOSPITALSYSTEM "Enable Hospitalsystem Module" ON)
 option(ENABLE_CALCULATOR_APP "Enable Hospitalsystem Application" ON)
 option(ENABLE_TESTS "Enable All Tests" ON)
 
 # Configure tests
 add_compile_definitions(ENABLE_UTILITY_TEST)
-add_compile_definitions(ENABLE_CALCULATOR_TEST)
+add_compile_definitions(ENABLE_HOSPITALSYSTEM_TEST)
 
 
 # Configure logs
 add_compile_definitions(ENABLE_UTILITY_LOGGER)
-add_compile_definitions(ENABLE_CALCULATOR_LOGGER)
+add_compile_definitions(ENABLE_HOSPITALSYSTEM_LOGGER)
 
 # Set the output directories for Debug and Release configurations
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/build/Debug)
@@ -101,7 +101,7 @@ if(ENABLE_UTILITY)
 endif()
 
 # Logger submodule
-if(ENABLE_CALCULATOR)
+if(ENABLE_HOSPITALSYSTEM)
 	add_subdirectory(${ROOT}/hospitalsystem)
 endif()
 

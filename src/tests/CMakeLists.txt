@@ -38,7 +38,7 @@ if(ENABLE_UTILITY)
 endif()
 
 # Hospitalsystem tests
-if(ENABLE_CALCULATOR)
+if(ENABLE_HOSPITALSYSTEM)
 	add_subdirectory(hospitalsystem)
 endif()
 

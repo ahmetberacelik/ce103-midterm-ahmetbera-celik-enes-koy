@@ -84,10 +84,10 @@ echo Generate Test Coverage Data for Utility
 call OpenCppCoverage.exe --export_type=binary:utility_tests_unit_win.cov --sources src\utility\src --sources src\utility\header --sources src\tests\utility -- build_win\build\Debug\utility_tests.exe
 
 echo Generate Test Coverage Data for Hospitalsystem
-call OpenCppCoverage.exe --export_type=binary:calculator_tests_unit_win.cov --sources src\hospitalsystem\src --sources src\hospitalsystem\header --sources src\tests\hospitalsystem -- build_win\build\Debug\calculator_tests.exe
+call OpenCppCoverage.exe --export_type=binary:hospitalsystem_tests_unit_win.cov --sources src\hospitalsystem\src --sources src\hospitalsystem\header --sources src\tests\hospitalsystem -- build_win\build\Debug\calculator_tests.exe
 
 echo Generate Test Coverage Data for Hospitalsystem App and Combine Results
-call OpenCppCoverage.exe --input_coverage=utility_tests_unit_win.cov --input_coverage=calculator_tests_unit_win.cov --export_type=cobertura:calculatorapp_unit_win_cobertura.xml --sources src\utility\src --sources src\utility\header --sources src\hospitalsystem\src --sources src\hospitalsystem\header --sources src\hospitalsystemapp\src --sources src\hospitalsystemapp\header --sources src\tests\utility --sources src\tests\hospitalsystem -- build_win\build\Debug\hospitalsystemapp.exe
+call OpenCppCoverage.exe --input_coverage=utility_tests_unit_win.cov --input_coverage=hospitalsystem_tests_unit_win.cov --export_type=cobertura:calculatorapp_unit_win_cobertura.xml --sources src\utility\src --sources src\utility\header --sources src\hospitalsystem\src --sources src\hospitalsystem\header --sources src\hospitalsystemapp\src --sources src\hospitalsystemapp\header --sources src\tests\utility --sources src\tests\hospitalsystem -- build_win\build\Debug\hospitalsystemapp.exe
 
 echo Generate Unit Test Coverage Report
 call reportgenerator "-title:Hospitalsystem Library Unit Test Coverage Report (Windows)" "-targetdir:docs/coveragereportlibwin" "-reporttypes:Html" "-reports:**/calculatorapp_unit_win_cobertura.xml" "-sourcedirs:src/utility/src;src/utility/header;src/hospitalsystem/src;src/hospitalsystem/header;src/hospitalsystemapp/src;src/hospitalsystemapp/header;src/tests/utility;src/tests/hospitalsystem" "-filefilters:-*minkernel\*;-*gtest*;-*a\_work\*;-*gtest-*;-*gtest.cc;-*gtest.h;-*build*" "-historydir:report_test_hist_win"

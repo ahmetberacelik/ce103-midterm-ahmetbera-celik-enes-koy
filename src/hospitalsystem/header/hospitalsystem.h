@@ -4,11 +4,32 @@
 #include "../../utility/header/commonTypes.h"
 using namespace std;
 
-void write_apostrophe();
+struct Informations
+{
+	string patient_name;
+	string patient_medical_history;
+	string default_patient_names[2] = { "Radi Yilmaz","Ayse Batmaz" };
+	string doc[4] = { "Ahmet Bera Celik","Enes Koy","Hasan Basri Taskin","Yakup Eroglu" };
+	string nurse[4] = { "Gamze Kaplan","Merve Demir","Sevda Özturk","Bilgi Vural" };
+	string patient_treatment_session[8];
+	string drug_features[3];
+};
 
-void patient_registration();
-void patient_menu();
-void patient_management();
-void apointment_scheduling();
+int write_apostrophe();
+
+int login();
+
+int patient_registration(string login_patient_name, string login_patient_medical_history);
+int patient_menu();
+int apointment_scheduling();
+int patient_management();
+int staff_management();
+int integrations();
+
+int doctor_menu();
+int prescription_management();
+int patient_progress_tracking();
+
+int switch_user();
 
 #endif // HOSPITALSYSTEM_H
