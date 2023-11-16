@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="structInformations" kind="struct"><name>Informations</name>
+    <member refid="structInformations_1a83db7141b482adc4865275d7ed302b34" kind="variable"><name>patient_name</name></member>
+    <member refid="structInformations_1a47e93debb3f057471d9a75a6e7c7203b" kind="variable"><name>patient_medical_history</name></member>
+    <member refid="structInformations_1abe64af9bed19dbc1442615f20b469875" kind="variable"><name>default_patient_names</name></member>
+    <member refid="structInformations_1a31912575a13925ec55a2cde449f29403" kind="variable"><name>doc</name></member>
+    <member refid="structInformations_1a56233c7c2985038c2802d8c97f2934c9" kind="variable"><name>nurse</name></member>
+    <member refid="structInformations_1a2552a8fdf0f20c486cc5d6dfb4281f71" kind="variable"><name>patient_treatment_session</name></member>
+    <member refid="structInformations_1ac2440edc3e417852271f25aa71a8b1db" kind="variable"><name>drug_features</name></member>
+  </compound>
+  <compound refid="classCoruh_1_1Utility_1_1MathUtility" kind="class"><name>Coruh::Utility::MathUtility</name>
+    <member refid="classCoruh_1_1Utility_1_1MathUtility_1abe3d63ed2737ae3c006bcc5732a3d01f" kind="function"><name>calculateMean</name></member>
+    <member refid="classCoruh_1_1Utility_1_1MathUtility_1aa5888ea1bef95e477a66c2dd8517b885" kind="function"><name>calculateMedian</name></member>
+    <member refid="classCoruh_1_1Utility_1_1MathUtility_1a8a30d3bb9945b043c861257596f17c30" kind="function"><name>compareDouble</name></member>
+    <member refid="classCoruh_1_1Utility_1_1MathUtility_1ac66a656b821b690761a1db545359508d" kind="function"><name>calculateMinMax</name></member>
+  </compound>
+  <compound refid="namespaceCoruh" kind="namespace"><name>Coruh</name>
+  </compound>
+  <compound refid="namespaceCoruh_1_1Utility" kind="namespace"><name>Coruh::Utility</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="README_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="hospitalsystem_8h" kind="file"><name>hospitalsystem.h</name>
+    <member refid="hospitalsystem_8h_1ab50c2c7ffb09dff246086aee5d570a3a" kind="function"><name>write_apostrophe</name></member>
+    <member refid="hospitalsystem_8h_1a59938e85b7f60cfb477647ed21b8a982" kind="function"><name>login</name></member>
+    <member refid="hospitalsystem_8h_1ae706aa21e75b1af33f535281bc61a802" kind="function"><name>patient_registration</name></member>
+    <member refid="hospitalsystem_8h_1aedd0a99e3049f35f5cfba7d6229c8196" kind="function"><name>patient_menu</name></member>
+    <member refid="hospitalsystem_8h_1afa7ff08617c81463ba953f7e7b61e176" kind="function"><name>appointment_scheduling</name></member>
+    <member refid="hospitalsystem_8h_1aee019f866c82a10d46052239e7cc0021" kind="function"><name>patient_management</name></member>
+    <member refid="hospitalsystem_8h_1a4d99b0e6b262ede7c5d16a737011befb" kind="function"><name>staff_management</name></member>
+    <member refid="hospitalsystem_8h_1af19036c908ab0634b0affcbdf2a8302b" kind="function"><name>integrations</name></member>
+    <member refid="hospitalsystem_8h_1a3b110a170e54050d0c906fa1932b6cab" kind="function"><name>doctor_menu</name></member>
+    <member refid="hospitalsystem_8h_1a212384c5d24818deaa9cc7e10dd71f4f" kind="function"><name>prescription_management</name></member>
+    <member refid="hospitalsystem_8h_1a2377dfdddf8ae17c3d0bbc21df0d3d13" kind="function"><name>patient_progress_tracking</name></member>
+    <member refid="hospitalsystem_8h_1a9412f30e1891d615e770e480b9dc83ab" kind="function"><name>switch_user</name></member>
+  </compound>
+  <compound refid="hospitalsystem_8cpp" kind="file"><name>hospitalsystem.cpp</name>
+    <member refid="hospitalsystem_8cpp_1a5360f1e5ada466d021c744eb9e8c6c07" kind="variable"><name>informations</name></member>
+    <member refid="hospitalsystem_8cpp_1ab50c2c7ffb09dff246086aee5d570a3a" kind="function"><name>write_apostrophe</name></member>
+    <member refid="hospitalsystem_8cpp_1a59938e85b7f60cfb477647ed21b8a982" kind="function"><name>login</name></member>
+    <member refid="hospitalsystem_8cpp_1ae706aa21e75b1af33f535281bc61a802" kind="function"><name>patient_registration</name></member>
+    <member refid="hospitalsystem_8cpp_1aedd0a99e3049f35f5cfba7d6229c8196" kind="function"><name>patient_menu</name></member>
+    <member refid="hospitalsystem_8cpp_1afa7ff08617c81463ba953f7e7b61e176" kind="function"><name>appointment_scheduling</name></member>
+    <member refid="hospitalsystem_8cpp_1aee019f866c82a10d46052239e7cc0021" kind="function"><name>patient_management</name></member>
+    <member refid="hospitalsystem_8cpp_1a4d99b0e6b262ede7c5d16a737011befb" kind="function"><name>staff_management</name></member>
+    <member refid="hospitalsystem_8cpp_1af19036c908ab0634b0affcbdf2a8302b" kind="function"><name>integrations</name></member>
+    <member refid="hospitalsystem_8cpp_1a3b110a170e54050d0c906fa1932b6cab" kind="function"><name>doctor_menu</name></member>
+    <member refid="hospitalsystem_8cpp_1a212384c5d24818deaa9cc7e10dd71f4f" kind="function"><name>prescription_management</name></member>
+    <member refid="hospitalsystem_8cpp_1a2377dfdddf8ae17c3d0bbc21df0d3d13" kind="function"><name>patient_progress_tracking</name></member>
+  </compound>
+  <compound refid="hospitalsystemapp_8h" kind="file"><name>hospitalsystemapp.h</name>
+  </compound>
+  <compound refid="hospitalsystemapp_8cpp" kind="file"><name>hospitalsystemapp.cpp</name>
+    <member refid="hospitalsystemapp_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="commonTypes_8h" kind="file"><name>commonTypes.h</name>
+  </compound>
+  <compound refid="mathUtility_8h" kind="file"><name>mathUtility.h</name>
+  </compound>
+  <compound refid="mathUtility_8cpp" kind="file"><name>mathUtility.cpp</name>
+  </compound>
+  <compound refid="dir_fa1698db07e0bcdf66a8e4ba23413ad9" kind="dir"><name>src/hospitalsystem/header</name>
+  </compound>
+  <compound refid="dir_1167f3c32ab294507d7b3dfded893836" kind="dir"><name>src/hospitalsystemapp/header</name>
+  </compound>
+  <compound refid="dir_1a3b8499b331fe4e1564b1eb295a0893" kind="dir"><name>src/utility/header</name>
+  </compound>
+  <compound refid="dir_0368600240eecbb6a1a0d69ad94adbb1" kind="dir"><name>src/hospitalsystem</name>
+  </compound>
+  <compound refid="dir_815b30b814a7f74b214b4143631674f9" kind="dir"><name>src/hospitalsystemapp</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_bb4f5e650c5da4d30d408290b09bb7a7" kind="dir"><name>src/hospitalsystem/src</name>
+  </compound>
+  <compound refid="dir_e09b2a39ff4877213a24352ddecd9a7e" kind="dir"><name>src/hospitalsystemapp/src</name>
+  </compound>
+  <compound refid="dir_e82d5b00f3064e3249317b7e44769fc6" kind="dir"><name>src/utility/src</name>
+  </compound>
+  <compound refid="dir_0619a8f54b4fad7043a6de45be8fde0b" kind="dir"><name>src/utility</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

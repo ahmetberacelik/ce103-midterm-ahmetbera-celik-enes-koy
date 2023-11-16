@@ -41,7 +41,7 @@ set(CRYPTOPP_USE_MASTER_BRANCH FALSE)
 
 option(ENABLE_UTILITY "Enable Utility Module" ON)
 option(ENABLE_HOSPITALSYSTEM "Enable Hospitalsystem Module" ON)
-option(ENABLE_CALCULATOR_APP "Enable Hospitalsystem Application" ON)
+option(ENABLE_HOSPITALSYSTEM_APP "Enable Hospitalsystem Application" ON)
 option(ENABLE_TESTS "Enable All Tests" ON)
 
 # Configure tests

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_815b30b814a7f74b214b4143631674f9" kind="dir">
+    <compoundname>src/hospitalsystemapp</compoundname>
+    <innerdir refid="dir_1167f3c32ab294507d7b3dfded893836">src/hospitalsystemapp/header</innerdir>
+    <innerdir refid="dir_e09b2a39ff4877213a24352ddecd9a7e">src/hospitalsystemapp/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/hospitalsystemapp/"/>
+  </compounddef>
+</doxygen>

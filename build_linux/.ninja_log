@@ -1,0 +1,9 @@
+# ninja log v5
+1	233	1700171798133584500	src/utility/CMakeFiles/utility.dir/src/mathUtility.cpp.o	6a16a2b8ac41a806
+240	524	1700171798203353700	src/utility/libutility.a	e294d0b7834579cc
+7	898	1700171798807011000	src/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	e44716d78f004002
+5	4082	1700171801984126400	src/tests/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	f2e9bead48af6a63
+8	140	1700171802156884500	lib/libgtest.a	997e8c9e4456dc05
+141	183	1700171802204603000	lib/libgtest_main.a	2478c56cc9290652
+10	959	1700171802982188600	src/tests/utility/CMakeFiles/utility_tests.dir/utility_test.cpp.o	6fb32b5a35911fa7
+12	961	1700171802982188600	src/tests/hospitalsystem/CMakeFiles/hospitalsystem_tests.dir/hospitalsystem_test.cpp.o	204810de3b702e1e

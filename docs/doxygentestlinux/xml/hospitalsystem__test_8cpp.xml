@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="hospitalsystem__test_8cpp" kind="file" language="C++">
+    <compoundname>hospitalsystem_test.cpp</compoundname>
+    <includes local="yes">gtest/gtest.h</includes>
+    <includes local="yes">../../hospitalsystem/header/hospitalsystem.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>src/tests/hospitalsystem/hospitalsystem_test.cpp</label>
+        <link refid="hospitalsystem__test_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gtest/gtest.h</label>
+      </node>
+      <node id="3">
+        <label>../../hospitalsystem/header/hospitalsystem.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="hospitalsystem__test_8cpp_1a32566717b8c89a6982c7c325c6bf0259" prot="public" static="no">
+        <name>ENABLE_HOSPITALSYSTEM_TEST</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="1" column="9" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(WriteApostropheTest, Test1)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>WriteApostropheTest</type>
+        </param>
+        <param>
+          <type>Test1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="8" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="8" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a13401b122665f35935273332fd14c327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(LoginTest, Test2)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>LoginTest</type>
+        </param>
+        <param>
+          <type>Test2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="16" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1aee6b735f2f7ae8d418e2f6ae93a1ef0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(PatientRegistrationTest, Test3)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>PatientRegistrationTest</type>
+        </param>
+        <param>
+          <type>Test3</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="25" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a6435d3eb1bd22a96aa110d8c3bcc5d27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(PatientMenuTest, Test4)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>PatientMenuTest</type>
+        </param>
+        <param>
+          <type>Test4</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="34" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a0f2a4788b6e952a340459e92965df2f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(AppointmentSchedulingTest, Test5)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>AppointmentSchedulingTest</type>
+        </param>
+        <param>
+          <type>Test5</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="43" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a941364602bf4eff948171c3ea086fa45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(PatientManagementTest, Test6)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>PatientManagementTest</type>
+        </param>
+        <param>
+          <type>Test6</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="53" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a44a1733170f1d9d3ec01f091d3f23caf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(StaffManagementTest, Test7)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>StaffManagementTest</type>
+        </param>
+        <param>
+          <type>Test7</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="61" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a5a04d63040798a8116835a571bca1fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(IntegrationsTest, Test8)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>IntegrationsTest</type>
+        </param>
+        <param>
+          <type>Test8</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="69" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1aec069e0f8b6fe70ad182f8f2a26686e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(DoctorMenuTest, Test9)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>DoctorMenuTest</type>
+        </param>
+        <param>
+          <type>Test9</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="77" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a62c4a0e6b52cfb631cb8b84dc3fee0e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(PrescriptionManagementTest, Test10)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>PrescriptionManagementTest</type>
+        </param>
+        <param>
+          <type>Test10</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="85" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1ac98b202eb2ac49d5f4cd7bf858e3718b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST</definition>
+        <argsstring>(PatientProgressTrackingTest, Test11)</argsstring>
+        <name>TEST</name>
+        <param>
+          <type>PatientProgressTrackingTest</type>
+        </param>
+        <param>
+          <type>Test11</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="93" column="1" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp" line="101" column="5" bodyfile="src/tests/hospitalsystem/hospitalsystem_test.cpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="hospitalsystem__test_8cpp_1a32566717b8c89a6982c7c325c6bf0259" refkind="member"><highlight class="preprocessor">#define<sp/>ENABLE_HOSPITALSYSTEM_TEST<sp/><sp/></highlight><highlight class="comment">//<sp/>Uncomment<sp/>this<sp/>line<sp/>to<sp/>enable<sp/>the<sp/>Hospitalsystem<sp/>tests</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gtest/gtest.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../hospitalsystem/header/hospitalsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Adjust<sp/>this<sp/>include<sp/>path<sp/>based<sp/>on<sp/>your<sp/>project<sp/>structure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>login<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(WriteApostropheTest,<sp/>Test1)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>a<sp/>login<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>the<sp/>login<sp/>is<sp/>successful</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(write_apostrophe(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>login<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="hospitalsystem__test_8cpp_1a13401b122665f35935273332fd14c327" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(LoginTest,<sp/>Test2)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>a<sp/>login<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>the<sp/>login<sp/>is<sp/>successful</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(login(),<sp/>0);<sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>registration<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>registration<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="hospitalsystem__test_8cpp_1aee6b735f2f7ae8d418e2f6ae93a1ef0e" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(PatientRegistrationTest,<sp/>Test3)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>a<sp/>patient<sp/>registration<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>the<sp/>registration<sp/>is<sp/>successful</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(patient_registration(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>registration<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>registration<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="hospitalsystem__test_8cpp_1a6435d3eb1bd22a96aa110d8c3bcc5d27" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(PatientMenuTest,<sp/>Test4)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>a<sp/>patient<sp/>registration<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>the<sp/>registration<sp/>is<sp/>successful</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(patient_menu(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>registration<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>registration<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="hospitalsystem__test_8cpp_1a0f2a4788b6e952a340459e92965df2f9" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(AppointmentSchedulingTest,<sp/>Test5)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>a<sp/>patient<sp/>registration<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>the<sp/>registration<sp/>is<sp/>successful</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(appointment_scheduling(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>management<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="hospitalsystem__test_8cpp_1a941364602bf4eff948171c3ea086fa45" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(PatientManagementTest,<sp/>Test6)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>patient<sp/>management<sp/>actions<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>updating<sp/>patient<sp/>information<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(patient_management(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>staff<sp/>management<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="hospitalsystem__test_8cpp_1a44a1733170f1d9d3ec01f091d3f23caf" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(StaffManagementTest,<sp/>Test7)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>staff<sp/>management<sp/>actions<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>viewing<sp/>doctor<sp/>schedules<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(staff_management(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>integrations<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="hospitalsystem__test_8cpp_1a5a04d63040798a8116835a571bca1fdf" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(IntegrationsTest,<sp/>Test8)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>integration<sp/>actions<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>accessing<sp/>pharmacy<sp/>information<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(integrations(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>doctor<sp/>menu<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="hospitalsystem__test_8cpp_1aec069e0f8b6fe70ad182f8f2a26686e7" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(DoctorMenuTest,<sp/>Test9)<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>doctor<sp/>menu<sp/>actions<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>switching<sp/>users<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(doctor_menu(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>prescription<sp/>management<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="hospitalsystem__test_8cpp_1a62c4a0e6b52cfb631cb8b84dc3fee0e7" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(PrescriptionManagementTest,<sp/>Test10)<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>prescription<sp/>management<sp/>actions<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>adding<sp/>a<sp/>prescription<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(prescription_management(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Test<sp/>for<sp/>the<sp/>patient<sp/>progress<sp/>tracking<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="hospitalsystem__test_8cpp_1ac98b202eb2ac49d5f4cd7bf858e3718b" refkind="member"><highlight class="normal"><ref refid="hospitalsystem__test_8cpp_1a8b16b45a9f1989c69b783394a05cab81" kindref="member">TEST</ref>(PatientProgressTrackingTest,<sp/>Test11)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>patient<sp/>progress<sp/>tracking<sp/>and<sp/>check<sp/>the<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>example,<sp/>you<sp/>might<sp/>want<sp/>to<sp/>check<sp/>if<sp/>tracking<sp/>patient<sp/>progress<sp/>works</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>based<sp/>on<sp/>your<sp/>implementation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>EXPECT_EQ(patient_progress_tracking(),<sp/>0);<sp/><sp/></highlight><highlight class="comment">//<sp/>Replace<sp/>expected_value<sp/>with<sp/>the<sp/>expected<sp/>result</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="hospitalsystem__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem__test_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>argv)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>::testing::InitGoogleTest(&amp;argc,<sp/>argv);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RUN_ALL_TESTS();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/tests/hospitalsystem/hospitalsystem_test.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="hospitalsystem_8h" kind="file" language="C++">
+    <compoundname>hospitalsystem.h</compoundname>
+    <includes refid="commonTypes_8h" local="yes">../../utility/header/commonTypes.h</includes>
+    <includedby refid="hospitalsystemapp_8cpp" local="yes">src/hospitalsystemapp/src/hospitalsystemapp.cpp</includedby>
+    <includedby refid="hospitalsystem_8cpp" local="yes">src/hospitalsystem/src/hospitalsystem.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>stdexcept</label>
+      </node>
+      <node id="2">
+        <label>../../utility/header/commonTypes.h</label>
+        <link refid="commonTypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/hospitalsystem/header/hospitalsystem.h</label>
+        <link refid="hospitalsystem_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>src/hospitalsystem/src/hospitalsystem.cpp</label>
+        <link refid="hospitalsystem_8cpp"/>
+      </node>
+      <node id="2">
+        <label>src/hospitalsystemapp/src/hospitalsystemapp.cpp</label>
+        <link refid="hospitalsystemapp_8cpp"/>
+      </node>
+      <node id="1">
+        <label>src/hospitalsystem/header/hospitalsystem.h</label>
+        <link refid="hospitalsystem_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structInformations" prot="public">Informations</innerclass>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="hospitalsystem_8h_1ab50c2c7ffb09dff246086aee5d570a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int write_apostrophe</definition>
+        <argsstring>()</argsstring>
+        <name>write_apostrophe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="17" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="8" bodyend="12" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="17" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1a59938e85b7f60cfb477647ed21b8a982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int login</definition>
+        <argsstring>()</argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="19" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="14" bodyend="62" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="19" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1ae706aa21e75b1af33f535281bc61a802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int patient_registration</definition>
+        <argsstring>()</argsstring>
+        <name>patient_registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="21" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="64" bodyend="85" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1aedd0a99e3049f35f5cfba7d6229c8196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int patient_menu</definition>
+        <argsstring>()</argsstring>
+        <name>patient_menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="22" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="87" bodyend="147" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="22" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1afa7ff08617c81463ba953f7e7b61e176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int appointment_scheduling</definition>
+        <argsstring>()</argsstring>
+        <name>appointment_scheduling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="23" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="149" bodyend="487" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="23" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1aee019f866c82a10d46052239e7cc0021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int patient_management</definition>
+        <argsstring>()</argsstring>
+        <name>patient_management</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="24" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="489" bodyend="568" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="24" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1a4d99b0e6b262ede7c5d16a737011befb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int staff_management</definition>
+        <argsstring>()</argsstring>
+        <name>staff_management</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="25" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="570" bodyend="649" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="25" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1af19036c908ab0634b0affcbdf2a8302b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int integrations</definition>
+        <argsstring>()</argsstring>
+        <name>integrations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="26" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="651" bodyend="752" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="26" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1a3b110a170e54050d0c906fa1932b6cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int doctor_menu</definition>
+        <argsstring>()</argsstring>
+        <name>doctor_menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="28" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="754" bodyend="823" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="28" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1a212384c5d24818deaa9cc7e10dd71f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int prescription_management</definition>
+        <argsstring>()</argsstring>
+        <name>prescription_management</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="29" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="825" bodyend="958" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="29" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1a2377dfdddf8ae17c3d0bbc21df0d3d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int patient_progress_tracking</definition>
+        <argsstring>()</argsstring>
+        <name>patient_progress_tracking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="30" column="5" bodyfile="src/hospitalsystem/src/hospitalsystem.cpp" bodystart="964" bodyend="971" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="30" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="hospitalsystem_8h_1a9412f30e1891d615e770e480b9dc83ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int switch_user</definition>
+        <argsstring>()</argsstring>
+        <name>switch_user</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/hospitalsystem/header/hospitalsystem.h" line="32" column="5" declfile="src/hospitalsystem/header/hospitalsystem.h" declline="32" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>HOSPITALSYSTEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HOSPITALSYSTEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../utility/header/commonTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="structInformations" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structInformations" kindref="compound">Informations</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="structInformations_1a83db7141b482adc4865275d7ed302b34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structInformations_1a83db7141b482adc4865275d7ed302b34" kindref="member">patient_name</ref>;</highlight></codeline>
+<codeline lineno="9" refid="structInformations_1a47e93debb3f057471d9a75a6e7c7203b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structInformations_1a47e93debb3f057471d9a75a6e7c7203b" kindref="member">patient_medical_history</ref>;</highlight></codeline>
+<codeline lineno="10" refid="structInformations_1abe64af9bed19dbc1442615f20b469875" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>default_patient_names[2]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Radi<sp/>Yilmaz&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Ayse<sp/>Batmaz&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="11" refid="structInformations_1a31912575a13925ec55a2cde449f29403" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>doc[4]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Ahmet<sp/>Bera<sp/>Celik&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Enes<sp/>Koy&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Hasan<sp/>Basri<sp/>Taskin&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Yakup<sp/>Eroglu&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="12" refid="structInformations_1a56233c7c2985038c2802d8c97f2934c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>nurse[4]<sp/>=<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Gamze<sp/>Kaplan&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Merve<sp/>Demir&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Sevda<sp/>Ozturk&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;Bilgi<sp/>Vural&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="13" refid="structInformations_1a2552a8fdf0f20c486cc5d6dfb4281f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>patient_treatment_session[8];</highlight></codeline>
+<codeline lineno="14" refid="structInformations_1ac2440edc3e417852271f25aa71a8b1db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>drug_features[3];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1ab50c2c7ffb09dff246086aee5d570a3a" kindref="member">write_apostrophe</ref>();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1a59938e85b7f60cfb477647ed21b8a982" kindref="member">login</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1ae706aa21e75b1af33f535281bc61a802" kindref="member">patient_registration</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1aedd0a99e3049f35f5cfba7d6229c8196" kindref="member">patient_menu</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1afa7ff08617c81463ba953f7e7b61e176" kindref="member">appointment_scheduling</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1aee019f866c82a10d46052239e7cc0021" kindref="member">patient_management</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1a4d99b0e6b262ede7c5d16a737011befb" kindref="member">staff_management</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1af19036c908ab0634b0affcbdf2a8302b" kindref="member">integrations</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1a3b110a170e54050d0c906fa1932b6cab" kindref="member">doctor_menu</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1a212384c5d24818deaa9cc7e10dd71f4f" kindref="member">prescription_management</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1a2377dfdddf8ae17c3d0bbc21df0d3d13" kindref="member">patient_progress_tracking</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="hospitalsystem_8h_1a9412f30e1891d615e770e480b9dc83ab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="hospitalsystem_8h_1a9412f30e1891d615e770e480b9dc83ab" kindref="member">switch_user</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>HOSPITALSYSTEM_H</highlight></codeline>
+    </programlisting>
+    <location file="src/hospitalsystem/header/hospitalsystem.h"/>
+  </compounddef>
+</doxygen>
